@@ -1,0 +1,4 @@
+# requirements-dev.txt — dev and CI only
+-r requirements.txt    # includes runtime deps
+ruff>=0.6.0
+pytest>=8.0.0
