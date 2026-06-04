@@ -1,5 +1,7 @@
 # ai-project-template
 
+![CI](https://github.com/Archie-f/ai-project-template/actions/workflows/ci.yml/badge.svg)
+
 ## What
 A reusable GitHub template repo with CI, secrets management, and project 
 boilerplate pre-configured. Use it as the starting point for every new AI project.
