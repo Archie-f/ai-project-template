@@ -26,6 +26,8 @@ cp .env.example .env   # add your real API keys
 ```
 
 ## What I Learned
-- A template repo eliminates repetitive boilerplate setup for every new project
-- GitHub Actions CI runs automatically on every push
-- Splitting requirements.txt and requirements-dev.txt keeps production lean
+- A template repo saves ~30 minutes by eliminating repetitive boilerplate setup for every new project
+- GitHub Actions CI runs automatically `ruff` for linting and `pytest` for tests on every push
+- Running `ruff` and `pytest` locally prevents pushing faulty code
+- Splitting requirements.txt and requirements-dev.txt keeps production lean - install requirements-dev.txt by using `-r`
+- The .env.example file displays the required secret variable names without exposing them to help who works on the same project
